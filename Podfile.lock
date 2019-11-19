@@ -1,0 +1,45 @@
+PODS:
+  - Alamofire (4.7.3)
+  - AlamofireObjectMapper (5.1.0):
+    - Alamofire (~> 4.1)
+    - ObjectMapper (~> 3.3)
+  - CryptoSwift (0.11.0)
+  - Device.swift (1.1.2)
+  - IQKeyboardManagerSwift (6.1.1)
+  - ObjectMapper (3.3.0)
+  - ParticlesLoadingView (0.5)
+  - SwiftyJSON (4.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireObjectMapper
+  - CryptoSwift
+  - Device.swift
+  - IQKeyboardManagerSwift
+  - ParticlesLoadingView
+  - SwiftyJSON
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
+    - CryptoSwift
+    - Device.swift
+    - IQKeyboardManagerSwift
+    - ObjectMapper
+    - ParticlesLoadingView
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AlamofireObjectMapper: 3395e698901d8b0e6f48b7d0c43bd47875325102
+  CryptoSwift: ad5208dd2aae0a764ea4ce2c2d34bd067cae67f0
+  Device.swift: f5ff884087c13999505b3a6b2ff1104fb6923f93
+  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
+  ObjectMapper: b612bf8c8e99c4dc0bb6013a51f7c27966ed5da9
+  ParticlesLoadingView: 48704281aa7381d7c8c55cbe632f30bbc8d12604
+  SwiftyJSON: c29297daf073d2aa016295d5809cdd68045c39b3
+
+PODFILE CHECKSUM: 25caac2d85d24c497d5e4aebfd7f95ea18993447
+
+COCOAPODS: 1.5.3

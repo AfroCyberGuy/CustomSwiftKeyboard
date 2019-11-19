@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Setup Phone View Controller-->
+        <scene sceneID="FNM-m3-FU4">
+            <objects>
+                <viewController storyboardIdentifier="SetupPhoneViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="aU1-kR-Dtc" customClass="SetupPhoneViewController" customModule="StewardKeyboardExt" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="J0T-2y-izQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="main_bg" translatesAutoresizingMaskIntoConstraints="NO" id="bhH-OF-cZS">
+                                <rect key="frame" x="179.5" y="20" width="16" height="647"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sosho_icon" translatesAutoresizingMaskIntoConstraints="NO" id="KFa-LL-Atb">
+                                <rect key="frame" x="137.5" y="50" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="bBS-xv-dch"/>
+                                    <constraint firstAttribute="width" constant="100" id="hnk-M3-FUV"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Payment Channels" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WD6-mL-8P2">
+                                <rect key="frame" x="0.0" y="190" width="375" height="31"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="These are your payment channels" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RfL-Bb-bO5">
+                                <rect key="frame" x="0.0" y="229" width="375" height="21.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="KzE-zi-UZI">
+                                <rect key="frame" x="40" y="290.5" width="295" height="99.5"/>
+                            </stackView>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rOj-8B-WjT">
+                                <rect key="frame" x="179.5" y="197" width="16" height="17"/>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleAspectFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ImN-P8-GYf">
+                                <rect key="frame" x="20" y="597" width="50" height="50"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="BNF-Be-KTZ"/>
+                                    <constraint firstAttribute="width" constant="50" id="ClL-57-w70"/>
+                                </constraints>
+                                <state key="normal" image="onboardback">
+                                    <color key="titleColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="backBtnAction:" destination="aU1-kR-Dtc" eventType="touchUpInside" id="znJ-S9-dUj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EqX-UB-KXk">
+                                <rect key="frame" x="78" y="563" width="225" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" name="PrimaryPurple"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="15"/>
+                                <state key="normal" title="Add Payment Channel">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="addPaymentChannel:" destination="aU1-kR-Dtc" eventType="touchUpInside" id="vlf-6h-8Hs"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92941176469999998" green="0.92941176469999998" blue="0.92941176469999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="RfL-Bb-bO5" firstAttribute="top" secondItem="rOj-8B-WjT" secondAttribute="bottom" constant="15" id="0Xt-oh-Ebo"/>
+                            <constraint firstItem="RfL-Bb-bO5" firstAttribute="leading" secondItem="nU2-Dq-K8E" secondAttribute="leading" id="0iw-bu-5xs"/>
+                            <constraint firstItem="bhH-OF-cZS" firstAttribute="top" secondItem="nU2-Dq-K8E" secondAttribute="top" id="4zw-Wo-xyW"/>
+                            <constraint firstItem="WD6-mL-8P2" firstAttribute="top" secondItem="KFa-LL-Atb" secondAttribute="bottom" constant="40" id="56P-Af-B08"/>
+                            <constraint firstItem="KzE-zi-UZI" firstAttribute="top" secondItem="RfL-Bb-bO5" secondAttribute="bottom" constant="40" id="5I7-eh-vi5"/>
+                            <constraint firstItem="KFa-LL-Atb" firstAttribute="top" secondItem="nU2-Dq-K8E" secondAttribute="top" constant="30" id="E25-kt-SRt"/>
+                            <constraint firstItem="KzE-zi-UZI" firstAttribute="leading" secondItem="nU2-Dq-K8E" secondAttribute="leading" constant="40" id="FOr-op-3R6"/>
+                            <constraint firstItem="nU2-Dq-K8E" firstAttribute="trailing" secondItem="KzE-zi-UZI" secondAttribute="trailing" constant="40" id="HrO-vc-TDd"/>
+                            <constraint firstItem="KFa-LL-Atb" firstAttribute="centerX" secondItem="J0T-2y-izQ" secondAttribute="centerX" id="LkP-1h-tIx"/>
+                            <constraint firstItem="WD6-mL-8P2" firstAttribute="leading" secondItem="nU2-Dq-K8E" secondAttribute="leading" id="P9Z-6t-HWl"/>
+                            <constraint firstItem="WD6-mL-8P2" firstAttribute="trailing" secondItem="nU2-Dq-K8E" secondAttribute="trailing" id="QAs-uc-Fqb"/>
+                            <constraint firstItem="RfL-Bb-bO5" firstAttribute="top" secondItem="WD6-mL-8P2" secondAttribute="bottom" constant="8" id="bZL-Pp-RCY"/>
+                            <constraint firstItem="KzE-zi-UZI" firstAttribute="centerX" secondItem="bhH-OF-cZS" secondAttribute="centerX" id="bZj-P0-29D"/>
+                            <constraint firstItem="KzE-zi-UZI" firstAttribute="centerX" secondItem="rOj-8B-WjT" secondAttribute="centerX" id="efm-Sf-bnk"/>
+                            <constraint firstItem="RfL-Bb-bO5" firstAttribute="trailing" secondItem="nU2-Dq-K8E" secondAttribute="trailing" id="ely-vk-wu8"/>
+                            <constraint firstItem="rOj-8B-WjT" firstAttribute="centerY" secondItem="WD6-mL-8P2" secondAttribute="centerY" id="ffo-zr-r28"/>
+                            <constraint firstItem="ImN-P8-GYf" firstAttribute="leading" secondItem="nU2-Dq-K8E" secondAttribute="leading" constant="20" id="gx4-aK-mFy"/>
+                            <constraint firstAttribute="bottom" secondItem="KzE-zi-UZI" secondAttribute="bottom" constant="277" id="h7H-AN-faa"/>
+                            <constraint firstItem="nU2-Dq-K8E" firstAttribute="bottom" secondItem="ImN-P8-GYf" secondAttribute="bottom" constant="20" id="jhf-41-5i6"/>
+                            <constraint firstItem="bhH-OF-cZS" firstAttribute="leading" secondItem="rOj-8B-WjT" secondAttribute="leading" id="wSY-l6-9lj"/>
+                            <constraint firstItem="bhH-OF-cZS" firstAttribute="bottom" secondItem="nU2-Dq-K8E" secondAttribute="bottom" id="wuo-Yx-aLb"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="nU2-Dq-K8E"/>
+                    </view>
+                    <connections>
+                        <outlet property="channelsStackView" destination="KzE-zi-UZI" id="hnl-b6-LeX"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2jo-vh-Ng9" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="256.80000000000001" y="118.29085457271366"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="main_bg" width="375" height="667"/>
+        <image name="onboardback" width="128" height="128"/>
+        <image name="sosho_icon" width="322" height="323"/>
+        <namedColor name="PrimaryPurple">
+            <color red="0.28600001335144043" green="0.030999999493360519" blue="0.40400001406669617" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

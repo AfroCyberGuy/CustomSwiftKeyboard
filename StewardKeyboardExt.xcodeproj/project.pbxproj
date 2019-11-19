@@ -7,14 +7,288 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C574030EE131E4770F6BB33 /* Pods_StewardKeyboardExt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2C20B37E05DBE1578E44647 /* Pods_StewardKeyboardExt.framework */; };
+		8E007657216B39A70024156A /* RTGSPaymentOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E007656216B39A70024156A /* RTGSPaymentOptionsView.swift */; };
+		8E007659216B3FC10024156A /* RTGSPanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E007658216B3FC10024156A /* RTGSPanView.swift */; };
+		8E00765B216B46BF0024156A /* RTGSPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E00765A216B46BF0024156A /* RTGSPinView.swift */; };
+		8E00765E216B5FC70024156A /* InternalTransferMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E00765D216B5FC70024156A /* InternalTransferMainView.swift */; };
+		8E00D4CC215103E10088733D /* KeyboardNumberCharecterOneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E00D4CB215103E10088733D /* KeyboardNumberCharecterOneView.swift */; };
+		8E00D4D021514C830088733D /* backspace.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E00D4CF21514C830088733D /* backspace.png */; };
+		8E00D4D32151F5B40088733D /* smiley.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E00D4D22151F5B40088733D /* smiley.png */; };
+		8E00D4D52151F6760088733D /* microphone.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E00D4D42151F6760088733D /* microphone.png */; };
+		8E03C765216F898E00A19306 /* DeviceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E03C764216F898E00A19306 /* DeviceType.swift */; };
+		8E03C767216F97AF00A19306 /* PurchaseZimModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E03C766216F97AF00A19306 /* PurchaseZimModel.swift */; };
+		8E03C76A216F9C4600A19306 /* Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E03C769216F9C4600A19306 /* Channel.swift */; };
+		8E03C76B216F9CA900A19306 /* BaseEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D1413216E2E41001D1677 /* BaseEndPoint.swift */; };
+		8E03C76F216FB7F400A19306 /* GroupUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E03C76E216FB7F400A19306 /* GroupUserDefaults.swift */; };
+		8E03C770216FC47400A19306 /* GroupUserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E03C76E216FB7F400A19306 /* GroupUserDefaults.swift */; };
+		8E06960621ACD87500EBEBA4 /* ContactsTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E06960521ACD87500EBEBA4 /* ContactsTC.swift */; };
+		8E06960821ACDBC300EBEBA4 /* Contacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E06960721ACDBC300EBEBA4 /* Contacts.swift */; };
+		8E06960B21ACDC5100EBEBA4 /* ContactsTableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E06960A21ACDC5100EBEBA4 /* ContactsTableViews.swift */; };
+		8E06960E21ACE81900EBEBA4 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E06960D21ACE81900EBEBA4 /* ContactsView.swift */; };
+		8E09D8A82167A1FC0003B72C /* BillPaymentsPaymentOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E09D8A72167A1FC0003B72C /* BillPaymentsPaymentOptions.swift */; };
+		8E09D8AA2167BEE40003B72C /* zimswitch.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E09D8A92167BEE40003B72C /* zimswitch.png */; };
+		8E09D8AC2167CC2B0003B72C /* BillPaymentsZimSwitchPanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E09D8AB2167CC2B0003B72C /* BillPaymentsZimSwitchPanView.swift */; };
+		8E109B5A2168F67900C8E3A2 /* BillPaymentsPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E109B592168F67900C8E3A2 /* BillPaymentsPinView.swift */; };
+		8E109B5C216A299C00C8E3A2 /* ZIPITCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E109B5B216A299C00C8E3A2 /* ZIPITCollectionCell.swift */; };
+		8E109B5E216A2C5D00C8E3A2 /* ZIPITCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E109B5D216A2C5D00C8E3A2 /* ZIPITCollectionView.swift */; };
+		8E109B60216A70F000C8E3A2 /* ZIPITPaymentOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E109B5F216A70F000C8E3A2 /* ZIPITPaymentOptions.swift */; };
+		8E109B62216A7A7D00C8E3A2 /* ZIPITPanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E109B61216A7A7D00C8E3A2 /* ZIPITPanView.swift */; };
+		8E109B64216A84C400C8E3A2 /* ZIPITPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E109B63216A84C400C8E3A2 /* ZIPITPinView.swift */; };
+		8E109B66216AA76800C8E3A2 /* ZIPITAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E109B65216AA76800C8E3A2 /* ZIPITAmountView.swift */; };
+		8E10BED72181D17100EF2D60 /* OtherBillersAuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E10BED62181D17100EF2D60 /* OtherBillersAuthModel.swift */; };
+		8E10BED92181DD6A00EF2D60 /* OtherBillersPayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E10BED82181DD6A00EF2D60 /* OtherBillersPayModel.swift */; };
+		8E152B5D218C550C0049F81D /* Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63181D21358958005F06F4 /* Controls.swift */; };
+		8E1BBF9221DE34CC00450781 /* Charges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1BBF9121DE34CC00450781 /* Charges.swift */; };
+		8E1BBF9421DE3DEF00450781 /* SingleCharge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1BBF9321DE3DEF00450781 /* SingleCharge.swift */; };
+		8E1BBF9621DE41F600450781 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1BBF9521DE41F600450781 /* Constants.swift */; };
+		8E2D8EE5214A5245001FDCD1 /* AirtimeREST.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E2D8EE4214A5245001FDCD1 /* AirtimeREST.swift */; };
+		8E3026B8216B8AF4006274BB /* BillListHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3026B7216B8AF4006274BB /* BillListHelper.swift */; };
+		8E30FF312161829C009B6858 /* happiness.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E30FF302161829B009B6858 /* happiness.png */; };
+		8E30FF332161835F009B6858 /* up-arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E30FF322161835F009B6858 /* up-arrow.png */; };
+		8E30FF35216183BA009B6858 /* grid-world.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E30FF34216183BA009B6858 /* grid-world.png */; };
+		8E30FF6321622D42009B6858 /* ZIPITMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E30FF6221622D42009B6858 /* ZIPITMainView.swift */; };
+		8E346936216B06B20089131B /* RTGSMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E346935216B06B20089131B /* RTGSMainView.swift */; };
+		8E346938216B0FC10089131B /* RTGSCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E346937216B0FC10089131B /* RTGSCollectionCell.swift */; };
+		8E34693A216B103E0089131B /* RTGSCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E346939216B103E0089131B /* RTGSCollectionView.swift */; };
+		8E34693E216B18960089131B /* RTGSAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E34693D216B18960089131B /* RTGSAmountView.swift */; };
+		8E34AE8321868BBC0078CB6D /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E63182521360A8B005F06F4 /* Colors.xcassets */; };
+		8E3D1414216E2E41001D1677 /* BaseEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D1413216E2E41001D1677 /* BaseEndPoint.swift */; };
+		8E3D1416216E3260001D1677 /* SharedPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D1415216E3260001D1677 /* SharedPreferences.swift */; };
+		8E3D1418216E32F7001D1677 /* ProfileAuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D1417216E32F7001D1677 /* ProfileAuthModel.swift */; };
+		8E3D141A216E48EA001D1677 /* OnBoardPrimaryNumberViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D1419216E48EA001D1677 /* OnBoardPrimaryNumberViewController.storyboard */; };
+		8E3D141C216E493E001D1677 /* OnBoardPrimaryNumberViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D141B216E493E001D1677 /* OnBoardPrimaryNumberViewController.swift */; };
+		8E3D141E216E4976001D1677 /* OnBoardOTPViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D141D216E4976001D1677 /* OnBoardOTPViewController.storyboard */; };
+		8E3D1420216E49AC001D1677 /* OnBoardOTPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D141F216E49AC001D1677 /* OnBoardOTPViewController.swift */; };
+		8E3D1422216E49CC001D1677 /* OnBoardPinViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E3D1421216E49CC001D1677 /* OnBoardPinViewController.storyboard */; };
+		8E3D1424216E49E6001D1677 /* OnBoardPinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D1423216E49E6001D1677 /* OnBoardPinViewController.swift */; };
+		8E4162882148E8C60037A61F /* SmartGenericRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4162872148E8C60037A61F /* SmartGenericRest.swift */; };
+		8E41628A2148EB1C0037A61F /* GenericObjectRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4162892148EB1C0037A61F /* GenericObjectRequest.swift */; };
+		8E41628E2148F17A0037A61F /* SecurityCertificateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41628D2148F17A0037A61F /* SecurityCertificateManager.swift */; };
+		8E45A0EA21ABD7A20022E2D8 /* MyProfileViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E45A0E921ABD7A20022E2D8 /* MyProfileViewController.storyboard */; };
+		8E45A0EC21ABD7B90022E2D8 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E45A0EB21ABD7B90022E2D8 /* MyProfileViewController.swift */; };
+		8E45A0EE21ABF9990022E2D8 /* exit.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E45A0ED21ABF9990022E2D8 /* exit.png */; };
+		8E4760FD219F276100F18B2B /* SquarePurchaseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4760FC219F276100F18B2B /* SquarePurchaseModel.swift */; };
+		8E4764A2216DFE2700FB638B /* I_idbz.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E4764A1216DFE2700FB638B /* I_idbz.png */; };
+		8E4764A4216DFED400FB638B /* I_agribank.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E4764A3216DFED400FB638B /* I_agribank.png */; };
 		8E5B51172133685600113C42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B51162133685600113C42 /* AppDelegate.swift */; };
 		8E5B51192133685600113C42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B51182133685600113C42 /* ViewController.swift */; };
 		8E5B511C2133685600113C42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B511A2133685600113C42 /* Main.storyboard */; };
 		8E5B511E2133685700113C42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B511D2133685700113C42 /* Assets.xcassets */; };
 		8E5B51212133685700113C42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B511F2133685700113C42 /* LaunchScreen.storyboard */; };
+		8E5B512F213368A700113C42 /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B512E213368A700113C42 /* KeyboardViewController.swift */; };
+		8E5B5133213368A700113C42 /* StewardBankKeyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8E5B512C213368A700113C42 /* StewardBankKeyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8E5B513A2133EA2300113C42 /* Keyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B51392133EA2300113C42 /* Keyboard.storyboard */; };
+		8E5B513D21342C3900113C42 /* UIViewX.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5B513C21342C3900113C42 /* UIViewX.swift */; };
+		8E5B51402134339E00113C42 /* rightroundbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E5B513F2134339E00113C42 /* rightroundbutton.png */; };
+		8E5E4DB0218AA04000D2715F /* KeyboardSharedPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E4DAF218AA04000D2715F /* KeyboardSharedPreferences.swift */; };
+		8E63181E21358958005F06F4 /* Controls.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63181D21358958005F06F4 /* Controls.swift */; };
+		8E63182121359720005F06F4 /* left_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E63181F21359720005F06F4 /* left_image.png */; };
+		8E63182221359720005F06F4 /* right_image.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E63182021359720005F06F4 /* right_image.png */; };
+		8E63182421359918005F06F4 /* gray_keyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E63182321359918005F06F4 /* gray_keyboard.png */; };
+		8E63182621360A8B005F06F4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E63182521360A8B005F06F4 /* Colors.xcassets */; };
+		8E63182821360D11005F06F4 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63182721360D11005F06F4 /* Theme.swift */; };
+		8E63182A21360F8C005F06F4 /* AirtimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63182921360F8C005F06F4 /* AirtimeView.swift */; };
+		8E63183421369FBD005F06F4 /* econet_image_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E63182B21369FBB005F06F4 /* econet_image_btn.png */; };
+		8E63183521369FBD005F06F4 /* telecel_image_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E63182C21369FBB005F06F4 /* telecel_image_btn.png */; };
+		8E63183621369FBD005F06F4 /* telecel_image_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E63182D21369FBC005F06F4 /* telecel_image_btn@3x.png */; };
+		8E63183721369FBD005F06F4 /* netone_image_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E63182E21369FBC005F06F4 /* netone_image_btn@2x.png */; };
+		8E63183821369FBD005F06F4 /* netone_image_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E63182F21369FBC005F06F4 /* netone_image_btn@3x.png */; };
+		8E63183921369FBD005F06F4 /* netone_image_btn.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E63183021369FBC005F06F4 /* netone_image_btn.png */; };
+		8E63183A21369FBD005F06F4 /* econet_image_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E63183121369FBC005F06F4 /* econet_image_btn@2x.png */; };
+		8E63183B21369FBD005F06F4 /* econet_image_btn@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E63183221369FBD005F06F4 /* econet_image_btn@3x.png */; };
+		8E63183C21369FBD005F06F4 /* telecel_image_btn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E63183321369FBD005F06F4 /* telecel_image_btn@2x.png */; };
+		8E6318432136A713005F06F4 /* emoji.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E63183E2136A712005F06F4 /* emoji.png */; };
+		8E6318452136A713005F06F4 /* changekeyboard.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6318402136A713005F06F4 /* changekeyboard.png */; };
+		8E6318482136A802005F06F4 /* shift.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6318472136A802005F06F4 /* shift.png */; };
+		8E63184A2136A865005F06F4 /* delete.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6318492136A865005F06F4 /* delete.png */; };
+		8E63184E2136A934005F06F4 /* sb.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E63184D2136A934005F06F4 /* sb.png */; };
+		8E6538C321660A86001C6736 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E63182721360D11005F06F4 /* Theme.swift */; };
+		8E6538C621666317001C6736 /* BillPaymentsAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6538C521666317001C6736 /* BillPaymentsAmountView.swift */; };
+		8E6C1D56213C3CFE009EBE6B /* AirtimeAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6C1D55213C3CFE009EBE6B /* AirtimeAmountView.swift */; };
+		8E6C1D59213D6A21009EBE6B /* AirtimePaymentOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E6C1D58213D6A21009EBE6B /* AirtimePaymentOptionView.swift */; };
+		8E6C1D5D213D7345009EBE6B /* stewardbank.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6C1D5A213D7345009EBE6B /* stewardbank.png */; };
+		8E6C1D5E213D7345009EBE6B /* stewardbank@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6C1D5B213D7345009EBE6B /* stewardbank@3x.png */; };
+		8E6C1D5F213D7345009EBE6B /* stewardbank@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E6C1D5C213D7345009EBE6B /* stewardbank@2x.png */; };
+		8E7442F12174685A00EE33B2 /* ZIPITModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7442F02174685A00EE33B2 /* ZIPITModel.swift */; };
+		8E7442F3217490F800EE33B2 /* KeyboardTileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7442F2217490F800EE33B2 /* KeyboardTileModel.swift */; };
+		8E7442F5217492FC00EE33B2 /* MainTilesCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7442F4217492FC00EE33B2 /* MainTilesCollectionView.swift */; };
+		8E7442F72174976500EE33B2 /* TilesCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7442F62174976500EE33B2 /* TilesCollectionCell.swift */; };
+		8E882B5E2175D552008B3004 /* KeyboardMainMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E882B5D2175D552008B3004 /* KeyboardMainMenuView.swift */; };
+		8E882B612175E8B1008B3004 /* BalanceEnquiryMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E882B602175E8B1008B3004 /* BalanceEnquiryMainView.swift */; };
+		8E882B632175F2B9008B3004 /* BalanceEnquirySBOptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E882B622175F2B9008B3004 /* BalanceEnquirySBOptionView.swift */; };
+		8E882B6521761B14008B3004 /* BalanceEnquiryZSPan.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E882B6421761B14008B3004 /* BalanceEnquiryZSPan.swift */; };
+		8E88400B218EEE700013F6C4 /* PhonenumberFormater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B8286216EFFC90029809D /* PhonenumberFormater.swift */; };
+		8E88400D218EFB7C0013F6C4 /* AirtimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E88400C218EFB7C0013F6C4 /* AirtimeModel.swift */; };
+		8E88400F218F2BC90013F6C4 /* FormatMoney.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E88400E218F2BC90013F6C4 /* FormatMoney.swift */; };
+		8E884011218F4E9A0013F6C4 /* sosho_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8E884010218F4E990013F6C4 /* sosho_icon.png */; };
+		8E971A4A218A9C56004523DA /* SharedPreferences.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D1415216E3260001D1677 /* SharedPreferences.swift */; };
+		8E9B8285216E81000029809D /* ANLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B8284216E81000029809D /* ANLoader.swift */; };
+		8E9B8287216EFFC90029809D /* PhonenumberFormater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B8286216EFFC90029809D /* PhonenumberFormater.swift */; };
+		8E9B8289216F01390029809D /* ProfileActivateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E9B8288216F01390029809D /* ProfileActivateModel.swift */; };
+		8EA76154216CF635000B1007 /* I_nmb.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EA76153216CF635000B1007 /* I_nmb.png */; };
+		8EA76156216CF705000B1007 /* I_stan.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EA76155216CF705000B1007 /* I_stan.png */; };
+		8EA76158216CF79B000B1007 /* I_cabs.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EA76157216CF79B000B1007 /* I_cabs.png */; };
+		8EA7615A216CF854000B1007 /* I_posb.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EA76159216CF854000B1007 /* I_posb.png */; };
+		8EA7615C216CF8C0000B1007 /* I_stanbic.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EA7615B216CF8C0000B1007 /* I_stanbic.png */; };
+		8EA7615E216CF97D000B1007 /* I_ecobank.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 8EA7615D216CF97D000B1007 /* I_ecobank.jpg */; };
+		8EA76160216CFB23000B1007 /* I_acl.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EA7615F216CFB23000B1007 /* I_acl.png */; };
+		8EA989DC2146AF07006813D1 /* HomeGridModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA989DB2146AF07006813D1 /* HomeGridModel.swift */; };
+		8EA989DF2146AF2B006813D1 /* HomeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA989DE2146AF2B006813D1 /* HomeCell.swift */; };
+		8EA989E22146B0CF006813D1 /* HomeScreenViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA989E12146B0CF006813D1 /* HomeScreenViewController.storyboard */; };
+		8EA989E42146B0E9006813D1 /* HomeScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA989E32146B0E9006813D1 /* HomeScreenViewController.swift */; };
+		8EA989E62146B11C006813D1 /* SetupPhoneViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA989E52146B11C006813D1 /* SetupPhoneViewController.storyboard */; };
+		8EA989E82146B135006813D1 /* SetupPhoneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA989E72146B135006813D1 /* SetupPhoneViewController.swift */; };
+		8EA989EA2146B14D006813D1 /* SetupPaymentHomeViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EA989E92146B14D006813D1 /* SetupPaymentHomeViewController.storyboard */; };
+		8EA989EC2146B163006813D1 /* SetupPaymentHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EA989EB2146B163006813D1 /* SetupPaymentHomeViewController.swift */; };
+		8EB3328C2147A3850052339E /* AirtimePinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EB3328B2147A3850052339E /* AirtimePinView.swift */; };
+		8EB59F46219043A500398352 /* sbkeylogo.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EB59F45219043A400398352 /* sbkeylogo.png */; };
+		8EB59F48219043CD00398352 /* oops.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EB59F47219043CD00398352 /* oops.png */; };
+		8EB59F4A219043DF00398352 /* thankyou.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EB59F49219043DF00398352 /* thankyou.png */; };
+		8EC08A562179F1D7003A9D8F /* ZIPITEcocashConfirmView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC08A552179F1D7003A9D8F /* ZIPITEcocashConfirmView.swift */; };
+		8EC15F1021DF6A1A00469EE8 /* MNO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC15F0F21DF6A1A00469EE8 /* MNO.swift */; };
+		8EC47105216F4B0800661EAA /* EcocashActivateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC47104216F4B0800661EAA /* EcocashActivateModel.swift */; };
+		8EC47107216F50A900661EAA /* EcocashAuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC47106216F50A900661EAA /* EcocashAuthModel.swift */; };
+		8EC47109216F512C00661EAA /* EcocashOnboardingViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC47108216F512C00661EAA /* EcocashOnboardingViewController.storyboard */; };
+		8EC4710B216F515300661EAA /* EcocashOnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4710A216F515300661EAA /* EcocashOnboardingViewController.swift */; };
+		8EC4710D216F5CE300661EAA /* SquareAuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4710C216F5CE300661EAA /* SquareAuthModel.swift */; };
+		8EC4710F216F688000661EAA /* SquareActivateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC4710E216F688000661EAA /* SquareActivateModel.swift */; };
+		8EC47111216F6A1D00661EAA /* SquareOnBoardViewController.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EC47110216F6A1D00661EAA /* SquareOnBoardViewController.storyboard */; };
+		8EC47113216F6A3000661EAA /* SquareOnBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC47112216F6A3000661EAA /* SquareOnBoardViewController.swift */; };
+		8EC64BF12177308B002E5ED4 /* InternalTransferPinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC64BF02177308B002E5ED4 /* InternalTransferPinView.swift */; };
+		8EC64BF321781C3B002E5ED4 /* ZimswitchBalanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC64BF221781C3B002E5ED4 /* ZimswitchBalanceModel.swift */; };
+		8EC64BF521782724002E5ED4 /* SquareBalanceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC64BF421782724002E5ED4 /* SquareBalanceModel.swift */; };
+		8EC64BF721782D2B002E5ED4 /* InternalTransferModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC64BF621782D2B002E5ED4 /* InternalTransferModel.swift */; };
+		8EC64BF921787036002E5ED4 /* InternalTransferAmountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC64BF821787036002E5ED4 /* InternalTransferAmountView.swift */; };
+		8EC64BFB2178CEDD002E5ED4 /* EcocashPayModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EC64BFA2178CEDD002E5ED4 /* EcocashPayModel.swift */; };
+		8ECC723521BFB08B00667366 /* ExpiryDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECC723421BFB08B00667366 /* ExpiryDateView.swift */; };
+		8ECE10222176333B009CB6AF /* BalanceEnquiryZSPin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE10212176333B009CB6AF /* BalanceEnquiryZSPin.swift */; };
+		8ECE91CA217DD49300622F10 /* EcocashAuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE91C9217DD49300622F10 /* EcocashAuthModel.swift */; };
+		8ECE91CF217FFE6400622F10 /* l_getbucks_.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ECE91CC217FFE6400622F10 /* l_getbucks_.png */; };
+		8ECE91D2217FFFA600622F10 /* l_barclays.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ECE91D1217FFFA600622F10 /* l_barclays.png */; };
+		8ECE91D4218148CD00622F10 /* ZipitT24AuthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ECE91D3218148CD00622F10 /* ZipitT24AuthModel.swift */; };
+		8ED0FC3121AFA74D008BFAD2 /* backspace_arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 8ED0FC3021AFA74D008BFAD2 /* backspace_arrow.png */; };
+		8EE247732170B16D0053E236 /* Encrypter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EE247722170B16D0053E236 /* Encrypter.swift */; };
+		8EEA3EC721646E6000F445F8 /* BillCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEA3EC621646E6000F445F8 /* BillCollectionView.swift */; };
+		8EEDF580216B935500E8A50B /* l_banc_abc.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDF57F216B935500E8A50B /* l_banc_abc.png */; };
+		8EEDF586216B943E00E8A50B /* l_cbz.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDF585216B943E00E8A50B /* l_cbz.png */; };
+		8EEDF58A216B947700E8A50B /* l_fbc.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDF589216B947700E8A50B /* l_fbc.png */; };
+		8EEDF58C216B948100E8A50B /* l_fbcb.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDF58B216B948100E8A50B /* l_fbcb.png */; };
+		8EEDF592216B94A200E8A50B /* l_mbca.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDF591216B94A200E8A50B /* l_mbca.png */; };
+		8EEDF594216B94A800E8A50B /* l_metbank_.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDF593216B94A800E8A50B /* l_metbank_.png */; };
+		8EEDF598216B94B800E8A50B /* l_nbs.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDF597216B94B800E8A50B /* l_nbs.png */; };
+		8EEDF59C216B94C900E8A50B /* l_onewallet.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDF59B216B94C900E8A50B /* l_onewallet.png */; };
+		8EEDF5A4216B954900E8A50B /* l_steward.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDF5A3216B954900E8A50B /* l_steward.png */; };
+		8EEDF5A6216B955700E8A50B /* l_zb.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EEDF5A5216B955700E8A50B /* l_zb.png */; };
+		8EEDF5A8216BA44700E8A50B /* BankValidater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEDF5A7216BA44700E8A50B /* BankValidater.swift */; };
+		8EEDF5AA216BA4AB00E8A50B /* BankListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EEDF5A9216BA4AB00E8A50B /* BankListModel.swift */; };
+		8EF5109B2162E10C001D8517 /* SmartGenericRest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4162872148E8C60037A61F /* SmartGenericRest.swift */; };
+		8EF5109C2162E10F001D8517 /* GenericObjectRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4162892148EB1C0037A61F /* GenericObjectRequest.swift */; };
+		8EF5109D2162E122001D8517 /* SecurityCertificateManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E41628D2148F17A0037A61F /* SecurityCertificateManager.swift */; };
+		8EF510A02162E880001D8517 /* BillPaymentMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF5109F2162E880001D8517 /* BillPaymentMainView.swift */; };
+		8EF510A321631DAD001D8517 /* l_edgars.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF510A221631DAD001D8517 /* l_edgars.png */; };
+		8EF510A521631DBB001D8517 /* kwesetv.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF510A421631DBB001D8517 /* kwesetv.png */; };
+		8EF510A721631DC9001D8517 /* telone.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF510A621631DC9001D8517 /* telone.png */; };
+		8EF510A921631DD5001D8517 /* zetdc.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF510A821631DD5001D8517 /* zetdc.png */; };
+		8EF510AB21631DDD001D8517 /* l_zol.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF510AA21631DDD001D8517 /* l_zol.png */; };
+		8EF510AD21631DE5001D8517 /* zuva.png in Resources */ = {isa = PBXBuildFile; fileRef = 8EF510AC21631DE5001D8517 /* zuva.png */; };
+		8EF510B021631E1F001D8517 /* BillersListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF510AF21631E1F001D8517 /* BillersListModel.swift */; };
+		8EF510B3216322BD001D8517 /* CollectionViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF510B2216322BD001D8517 /* CollectionViews.swift */; };
+		8EF510B6216325DC001D8517 /* BillPaymentsCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EF510B5216325DC001D8517 /* BillPaymentsCollectionCell.swift */; };
+		997A4114D93946866276501F /* Pods_StewardBankKeyboard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 365838D1CC4BE0951CDEF15D /* Pods_StewardBankKeyboard.framework */; };
+		9EFA2AE823191D6E00213FB4 /* l_mycash.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9EFA2AE723191D6E00213FB4 /* l_mycash.jpg */; };
+		9EFA2AEC23191EC100213FB4 /* spca.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EFA2AEB23191EC000213FB4 /* spca.png */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		8E5B5131213368A700113C42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E5B510B2133685600113C42 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8E5B512B213368A700113C42;
+			remoteInfo = StewardBankKeyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8E5B5137213368A700113C42 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8E5B5133213368A700113C42 /* StewardBankKeyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		365838D1CC4BE0951CDEF15D /* Pods_StewardBankKeyboard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StewardBankKeyboard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		560BA74A15B221865AEE912F /* Pods-StewardKeyboardExt.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StewardKeyboardExt.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StewardKeyboardExt/Pods-StewardKeyboardExt.debug.xcconfig"; sourceTree = "<group>"; };
+		57A5F2D646C7B02DFDB9BA0A /* Pods-StewardBankKeyboard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StewardBankKeyboard.release.xcconfig"; path = "Pods/Target Support Files/Pods-StewardBankKeyboard/Pods-StewardBankKeyboard.release.xcconfig"; sourceTree = "<group>"; };
+		8E007656216B39A70024156A /* RTGSPaymentOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTGSPaymentOptionsView.swift; sourceTree = "<group>"; };
+		8E007658216B3FC10024156A /* RTGSPanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTGSPanView.swift; sourceTree = "<group>"; };
+		8E00765A216B46BF0024156A /* RTGSPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTGSPinView.swift; sourceTree = "<group>"; };
+		8E00765D216B5FC70024156A /* InternalTransferMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalTransferMainView.swift; sourceTree = "<group>"; };
+		8E00D4CB215103E10088733D /* KeyboardNumberCharecterOneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardNumberCharecterOneView.swift; sourceTree = "<group>"; };
+		8E00D4CF21514C830088733D /* backspace.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backspace.png; sourceTree = "<group>"; };
+		8E00D4D22151F5B40088733D /* smiley.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smiley.png; sourceTree = "<group>"; };
+		8E00D4D42151F6760088733D /* microphone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = microphone.png; sourceTree = "<group>"; };
+		8E03C764216F898E00A19306 /* DeviceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceType.swift; sourceTree = "<group>"; };
+		8E03C766216F97AF00A19306 /* PurchaseZimModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurchaseZimModel.swift; sourceTree = "<group>"; };
+		8E03C769216F9C4600A19306 /* Channel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Channel.swift; sourceTree = "<group>"; };
+		8E03C76E216FB7F400A19306 /* GroupUserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupUserDefaults.swift; sourceTree = "<group>"; };
+		8E06960521ACD87500EBEBA4 /* ContactsTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTC.swift; sourceTree = "<group>"; };
+		8E06960721ACDBC300EBEBA4 /* Contacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacts.swift; sourceTree = "<group>"; };
+		8E06960A21ACDC5100EBEBA4 /* ContactsTableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsTableViews.swift; sourceTree = "<group>"; };
+		8E06960D21ACE81900EBEBA4 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
+		8E09D8A72167A1FC0003B72C /* BillPaymentsPaymentOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillPaymentsPaymentOptions.swift; sourceTree = "<group>"; };
+		8E09D8A92167BEE40003B72C /* zimswitch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zimswitch.png; sourceTree = "<group>"; };
+		8E09D8AB2167CC2B0003B72C /* BillPaymentsZimSwitchPanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillPaymentsZimSwitchPanView.swift; sourceTree = "<group>"; };
+		8E109B592168F67900C8E3A2 /* BillPaymentsPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillPaymentsPinView.swift; sourceTree = "<group>"; };
+		8E109B5B216A299C00C8E3A2 /* ZIPITCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIPITCollectionCell.swift; sourceTree = "<group>"; };
+		8E109B5D216A2C5D00C8E3A2 /* ZIPITCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIPITCollectionView.swift; sourceTree = "<group>"; };
+		8E109B5F216A70F000C8E3A2 /* ZIPITPaymentOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIPITPaymentOptions.swift; sourceTree = "<group>"; };
+		8E109B61216A7A7D00C8E3A2 /* ZIPITPanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIPITPanView.swift; sourceTree = "<group>"; };
+		8E109B63216A84C400C8E3A2 /* ZIPITPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIPITPinView.swift; sourceTree = "<group>"; };
+		8E109B65216AA76800C8E3A2 /* ZIPITAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIPITAmountView.swift; sourceTree = "<group>"; };
+		8E10BED62181D17100EF2D60 /* OtherBillersAuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherBillersAuthModel.swift; sourceTree = "<group>"; };
+		8E10BED82181DD6A00EF2D60 /* OtherBillersPayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherBillersPayModel.swift; sourceTree = "<group>"; };
+		8E1BBF9121DE34CC00450781 /* Charges.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Charges.swift; sourceTree = "<group>"; };
+		8E1BBF9321DE3DEF00450781 /* SingleCharge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleCharge.swift; sourceTree = "<group>"; };
+		8E1BBF9521DE41F600450781 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8E2D8EE4214A5245001FDCD1 /* AirtimeREST.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtimeREST.swift; sourceTree = "<group>"; };
+		8E3026B7216B8AF4006274BB /* BillListHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillListHelper.swift; sourceTree = "<group>"; };
+		8E30FF302161829B009B6858 /* happiness.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happiness.png; sourceTree = "<group>"; };
+		8E30FF322161835F009B6858 /* up-arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "up-arrow.png"; sourceTree = "<group>"; };
+		8E30FF34216183BA009B6858 /* grid-world.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "grid-world.png"; sourceTree = "<group>"; };
+		8E30FF6221622D42009B6858 /* ZIPITMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIPITMainView.swift; sourceTree = "<group>"; };
+		8E330186218B7D2700F7F1E0 /* StewardKeyboardExt.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StewardKeyboardExt.entitlements; sourceTree = "<group>"; };
+		8E330187218B7D5500F7F1E0 /* StewardBankKeyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StewardBankKeyboard.entitlements; sourceTree = "<group>"; };
+		8E346935216B06B20089131B /* RTGSMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTGSMainView.swift; sourceTree = "<group>"; };
+		8E346937216B0FC10089131B /* RTGSCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTGSCollectionCell.swift; sourceTree = "<group>"; };
+		8E346939216B103E0089131B /* RTGSCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTGSCollectionView.swift; sourceTree = "<group>"; };
+		8E34693D216B18960089131B /* RTGSAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTGSAmountView.swift; sourceTree = "<group>"; };
+		8E3D1413216E2E41001D1677 /* BaseEndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseEndPoint.swift; sourceTree = "<group>"; };
+		8E3D1415216E3260001D1677 /* SharedPreferences.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharedPreferences.swift; sourceTree = "<group>"; };
+		8E3D1417216E32F7001D1677 /* ProfileAuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileAuthModel.swift; sourceTree = "<group>"; };
+		8E3D1419216E48EA001D1677 /* OnBoardPrimaryNumberViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoardPrimaryNumberViewController.storyboard; sourceTree = "<group>"; };
+		8E3D141B216E493E001D1677 /* OnBoardPrimaryNumberViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardPrimaryNumberViewController.swift; sourceTree = "<group>"; };
+		8E3D141D216E4976001D1677 /* OnBoardOTPViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoardOTPViewController.storyboard; sourceTree = "<group>"; };
+		8E3D141F216E49AC001D1677 /* OnBoardOTPViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardOTPViewController.swift; sourceTree = "<group>"; };
+		8E3D1421216E49CC001D1677 /* OnBoardPinViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = OnBoardPinViewController.storyboard; sourceTree = "<group>"; };
+		8E3D1423216E49E6001D1677 /* OnBoardPinViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardPinViewController.swift; sourceTree = "<group>"; };
+		8E4162872148E8C60037A61F /* SmartGenericRest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartGenericRest.swift; sourceTree = "<group>"; };
+		8E4162892148EB1C0037A61F /* GenericObjectRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericObjectRequest.swift; sourceTree = "<group>"; };
+		8E41628D2148F17A0037A61F /* SecurityCertificateManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecurityCertificateManager.swift; sourceTree = "<group>"; };
+		8E45A0E921ABD7A20022E2D8 /* MyProfileViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MyProfileViewController.storyboard; sourceTree = "<group>"; };
+		8E45A0EB21ABD7B90022E2D8 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		8E45A0ED21ABF9990022E2D8 /* exit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = exit.png; sourceTree = "<group>"; };
+		8E4760FC219F276100F18B2B /* SquarePurchaseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquarePurchaseModel.swift; sourceTree = "<group>"; };
+		8E4764A1216DFE2700FB638B /* I_idbz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = I_idbz.png; sourceTree = "<group>"; };
+		8E4764A3216DFED400FB638B /* I_agribank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = I_agribank.png; sourceTree = "<group>"; };
 		8E5B51132133685600113C42 /* StewardKeyboardExt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StewardKeyboardExt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E5B51162133685600113C42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8E5B51182133685600113C42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +296,125 @@
 		8E5B511D2133685700113C42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8E5B51202133685700113C42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8E5B51222133685700113C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E5B512C213368A700113C42 /* StewardBankKeyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StewardBankKeyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E5B512E213368A700113C42 /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		8E5B5130213368A700113C42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8E5B51392133EA2300113C42 /* Keyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Keyboard.storyboard; sourceTree = "<group>"; };
+		8E5B513C21342C3900113C42 /* UIViewX.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewX.swift; sourceTree = "<group>"; };
+		8E5B513F2134339E00113C42 /* rightroundbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rightroundbutton.png; sourceTree = "<group>"; };
+		8E5E4DAF218AA04000D2715F /* KeyboardSharedPreferences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardSharedPreferences.swift; sourceTree = "<group>"; };
+		8E63181D21358958005F06F4 /* Controls.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Controls.swift; sourceTree = "<group>"; };
+		8E63181F21359720005F06F4 /* left_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = left_image.png; sourceTree = "<group>"; };
+		8E63182021359720005F06F4 /* right_image.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = right_image.png; sourceTree = "<group>"; };
+		8E63182321359918005F06F4 /* gray_keyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gray_keyboard.png; sourceTree = "<group>"; };
+		8E63182521360A8B005F06F4 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		8E63182721360D11005F06F4 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		8E63182921360F8C005F06F4 /* AirtimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtimeView.swift; sourceTree = "<group>"; };
+		8E63182B21369FBB005F06F4 /* econet_image_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = econet_image_btn.png; sourceTree = "<group>"; };
+		8E63182C21369FBB005F06F4 /* telecel_image_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = telecel_image_btn.png; sourceTree = "<group>"; };
+		8E63182D21369FBC005F06F4 /* telecel_image_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "telecel_image_btn@3x.png"; sourceTree = "<group>"; };
+		8E63182E21369FBC005F06F4 /* netone_image_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "netone_image_btn@2x.png"; sourceTree = "<group>"; };
+		8E63182F21369FBC005F06F4 /* netone_image_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "netone_image_btn@3x.png"; sourceTree = "<group>"; };
+		8E63183021369FBC005F06F4 /* netone_image_btn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = netone_image_btn.png; sourceTree = "<group>"; };
+		8E63183121369FBC005F06F4 /* econet_image_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "econet_image_btn@2x.png"; sourceTree = "<group>"; };
+		8E63183221369FBD005F06F4 /* econet_image_btn@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "econet_image_btn@3x.png"; sourceTree = "<group>"; };
+		8E63183321369FBD005F06F4 /* telecel_image_btn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "telecel_image_btn@2x.png"; sourceTree = "<group>"; };
+		8E63183E2136A712005F06F4 /* emoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = emoji.png; sourceTree = "<group>"; };
+		8E6318402136A713005F06F4 /* changekeyboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = changekeyboard.png; sourceTree = "<group>"; };
+		8E6318472136A802005F06F4 /* shift.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shift.png; sourceTree = "<group>"; };
+		8E6318492136A865005F06F4 /* delete.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = delete.png; sourceTree = "<group>"; };
+		8E63184D2136A934005F06F4 /* sb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sb.png; sourceTree = "<group>"; };
+		8E6538C521666317001C6736 /* BillPaymentsAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillPaymentsAmountView.swift; sourceTree = "<group>"; };
+		8E6C1D55213C3CFE009EBE6B /* AirtimeAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtimeAmountView.swift; sourceTree = "<group>"; };
+		8E6C1D58213D6A21009EBE6B /* AirtimePaymentOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtimePaymentOptionView.swift; sourceTree = "<group>"; };
+		8E6C1D5A213D7345009EBE6B /* stewardbank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stewardbank.png; sourceTree = "<group>"; };
+		8E6C1D5B213D7345009EBE6B /* stewardbank@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stewardbank@3x.png"; sourceTree = "<group>"; };
+		8E6C1D5C213D7345009EBE6B /* stewardbank@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "stewardbank@2x.png"; sourceTree = "<group>"; };
+		8E7442F02174685A00EE33B2 /* ZIPITModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZIPITModel.swift; sourceTree = "<group>"; };
+		8E7442F2217490F800EE33B2 /* KeyboardTileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardTileModel.swift; sourceTree = "<group>"; };
+		8E7442F4217492FC00EE33B2 /* MainTilesCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTilesCollectionView.swift; sourceTree = "<group>"; };
+		8E7442F62174976500EE33B2 /* TilesCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TilesCollectionCell.swift; sourceTree = "<group>"; };
+		8E882B5D2175D552008B3004 /* KeyboardMainMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardMainMenuView.swift; sourceTree = "<group>"; };
+		8E882B602175E8B1008B3004 /* BalanceEnquiryMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceEnquiryMainView.swift; sourceTree = "<group>"; };
+		8E882B622175F2B9008B3004 /* BalanceEnquirySBOptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceEnquirySBOptionView.swift; sourceTree = "<group>"; };
+		8E882B6421761B14008B3004 /* BalanceEnquiryZSPan.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceEnquiryZSPan.swift; sourceTree = "<group>"; };
+		8E88400C218EFB7C0013F6C4 /* AirtimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtimeModel.swift; sourceTree = "<group>"; };
+		8E88400E218F2BC90013F6C4 /* FormatMoney.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormatMoney.swift; sourceTree = "<group>"; };
+		8E884010218F4E990013F6C4 /* sosho_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sosho_icon.png; path = StewardBankKeyboard/Resources/BanksLogos/sosho_icon.png; sourceTree = SOURCE_ROOT; };
+		8E9B8284216E81000029809D /* ANLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ANLoader.swift; sourceTree = "<group>"; };
+		8E9B8286216EFFC90029809D /* PhonenumberFormater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhonenumberFormater.swift; sourceTree = "<group>"; };
+		8E9B8288216F01390029809D /* ProfileActivateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileActivateModel.swift; sourceTree = "<group>"; };
+		8EA76153216CF635000B1007 /* I_nmb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = I_nmb.png; sourceTree = "<group>"; };
+		8EA76155216CF705000B1007 /* I_stan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = I_stan.png; sourceTree = "<group>"; };
+		8EA76157216CF79B000B1007 /* I_cabs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = I_cabs.png; sourceTree = "<group>"; };
+		8EA76159216CF854000B1007 /* I_posb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = I_posb.png; sourceTree = "<group>"; };
+		8EA7615B216CF8C0000B1007 /* I_stanbic.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = I_stanbic.png; sourceTree = "<group>"; };
+		8EA7615D216CF97D000B1007 /* I_ecobank.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = I_ecobank.jpg; sourceTree = "<group>"; };
+		8EA7615F216CFB23000B1007 /* I_acl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = I_acl.png; sourceTree = "<group>"; };
+		8EA989DB2146AF07006813D1 /* HomeGridModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeGridModel.swift; sourceTree = "<group>"; };
+		8EA989DE2146AF2B006813D1 /* HomeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCell.swift; sourceTree = "<group>"; };
+		8EA989E12146B0CF006813D1 /* HomeScreenViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = HomeScreenViewController.storyboard; sourceTree = "<group>"; };
+		8EA989E32146B0E9006813D1 /* HomeScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreenViewController.swift; sourceTree = "<group>"; };
+		8EA989E52146B11C006813D1 /* SetupPhoneViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SetupPhoneViewController.storyboard; sourceTree = "<group>"; };
+		8EA989E72146B135006813D1 /* SetupPhoneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupPhoneViewController.swift; sourceTree = "<group>"; };
+		8EA989E92146B14D006813D1 /* SetupPaymentHomeViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SetupPaymentHomeViewController.storyboard; sourceTree = "<group>"; };
+		8EA989EB2146B163006813D1 /* SetupPaymentHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupPaymentHomeViewController.swift; sourceTree = "<group>"; };
+		8EB3328B2147A3850052339E /* AirtimePinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AirtimePinView.swift; sourceTree = "<group>"; };
+		8EB59F45219043A400398352 /* sbkeylogo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sbkeylogo.png; sourceTree = "<group>"; };
+		8EB59F47219043CD00398352 /* oops.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oops.png; sourceTree = "<group>"; };
+		8EB59F49219043DF00398352 /* thankyou.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thankyou.png; sourceTree = "<group>"; };
+		8EC08A552179F1D7003A9D8F /* ZIPITEcocashConfirmView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZIPITEcocashConfirmView.swift; sourceTree = "<group>"; };
+		8EC15F0F21DF6A1A00469EE8 /* MNO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MNO.swift; sourceTree = "<group>"; };
+		8EC47104216F4B0800661EAA /* EcocashActivateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcocashActivateModel.swift; sourceTree = "<group>"; };
+		8EC47106216F50A900661EAA /* EcocashAuthModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EcocashAuthModel.swift; sourceTree = "<group>"; };
+		8EC47108216F512C00661EAA /* EcocashOnboardingViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = EcocashOnboardingViewController.storyboard; sourceTree = "<group>"; };
+		8EC4710A216F515300661EAA /* EcocashOnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcocashOnboardingViewController.swift; sourceTree = "<group>"; };
+		8EC4710C216F5CE300661EAA /* SquareAuthModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareAuthModel.swift; sourceTree = "<group>"; };
+		8EC4710E216F688000661EAA /* SquareActivateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SquareActivateModel.swift; sourceTree = "<group>"; };
+		8EC47110216F6A1D00661EAA /* SquareOnBoardViewController.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SquareOnBoardViewController.storyboard; sourceTree = "<group>"; };
+		8EC47112216F6A3000661EAA /* SquareOnBoardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareOnBoardViewController.swift; sourceTree = "<group>"; };
+		8EC64BF02177308B002E5ED4 /* InternalTransferPinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalTransferPinView.swift; sourceTree = "<group>"; };
+		8EC64BF221781C3B002E5ED4 /* ZimswitchBalanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZimswitchBalanceModel.swift; sourceTree = "<group>"; };
+		8EC64BF421782724002E5ED4 /* SquareBalanceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareBalanceModel.swift; sourceTree = "<group>"; };
+		8EC64BF621782D2B002E5ED4 /* InternalTransferModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalTransferModel.swift; sourceTree = "<group>"; };
+		8EC64BF821787036002E5ED4 /* InternalTransferAmountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalTransferAmountView.swift; sourceTree = "<group>"; };
+		8EC64BFA2178CEDD002E5ED4 /* EcocashPayModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcocashPayModel.swift; sourceTree = "<group>"; };
+		8ECC723421BFB08B00667366 /* ExpiryDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpiryDateView.swift; sourceTree = "<group>"; };
+		8ECE10212176333B009CB6AF /* BalanceEnquiryZSPin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BalanceEnquiryZSPin.swift; sourceTree = "<group>"; };
+		8ECE91C9217DD49300622F10 /* EcocashAuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EcocashAuthModel.swift; sourceTree = "<group>"; };
+		8ECE91CC217FFE6400622F10 /* l_getbucks_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l_getbucks_.png; sourceTree = "<group>"; };
+		8ECE91D1217FFFA600622F10 /* l_barclays.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l_barclays.png; sourceTree = "<group>"; };
+		8ECE91D3218148CD00622F10 /* ZipitT24AuthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZipitT24AuthModel.swift; sourceTree = "<group>"; };
+		8ED0FC3021AFA74D008BFAD2 /* backspace_arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backspace_arrow.png; sourceTree = "<group>"; };
+		8EE247722170B16D0053E236 /* Encrypter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encrypter.swift; sourceTree = "<group>"; };
+		8EEA3EC621646E6000F445F8 /* BillCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillCollectionView.swift; sourceTree = "<group>"; };
+		8EEDF57F216B935500E8A50B /* l_banc_abc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l_banc_abc.png; sourceTree = "<group>"; };
+		8EEDF585216B943E00E8A50B /* l_cbz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l_cbz.png; sourceTree = "<group>"; };
+		8EEDF589216B947700E8A50B /* l_fbc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l_fbc.png; sourceTree = "<group>"; };
+		8EEDF58B216B948100E8A50B /* l_fbcb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l_fbcb.png; sourceTree = "<group>"; };
+		8EEDF591216B94A200E8A50B /* l_mbca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l_mbca.png; sourceTree = "<group>"; };
+		8EEDF593216B94A800E8A50B /* l_metbank_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l_metbank_.png; sourceTree = "<group>"; };
+		8EEDF597216B94B800E8A50B /* l_nbs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l_nbs.png; sourceTree = "<group>"; };
+		8EEDF59B216B94C900E8A50B /* l_onewallet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l_onewallet.png; sourceTree = "<group>"; };
+		8EEDF5A3216B954900E8A50B /* l_steward.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l_steward.png; sourceTree = "<group>"; };
+		8EEDF5A5216B955700E8A50B /* l_zb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l_zb.png; sourceTree = "<group>"; };
+		8EEDF5A7216BA44700E8A50B /* BankValidater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BankValidater.swift; sourceTree = "<group>"; };
+		8EEDF5A9216BA4AB00E8A50B /* BankListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankListModel.swift; sourceTree = "<group>"; };
+		8EF5109F2162E880001D8517 /* BillPaymentMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillPaymentMainView.swift; sourceTree = "<group>"; };
+		8EF510A221631DAD001D8517 /* l_edgars.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l_edgars.png; sourceTree = "<group>"; };
+		8EF510A421631DBB001D8517 /* kwesetv.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kwesetv.png; sourceTree = "<group>"; };
+		8EF510A621631DC9001D8517 /* telone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = telone.png; sourceTree = "<group>"; };
+		8EF510A821631DD5001D8517 /* zetdc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zetdc.png; sourceTree = "<group>"; };
+		8EF510AA21631DDD001D8517 /* l_zol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = l_zol.png; sourceTree = "<group>"; };
+		8EF510AC21631DE5001D8517 /* zuva.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zuva.png; sourceTree = "<group>"; };
+		8EF510AF21631E1F001D8517 /* BillersListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillersListModel.swift; sourceTree = "<group>"; };
+		8EF510B2216322BD001D8517 /* CollectionViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViews.swift; sourceTree = "<group>"; };
+		8EF510B5216325DC001D8517 /* BillPaymentsCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillPaymentsCollectionCell.swift; sourceTree = "<group>"; };
+		9EFA2AE723191D6E00213FB4 /* l_mycash.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = l_mycash.jpg; sourceTree = "<group>"; };
+		9EFA2AEB23191EC000213FB4 /* spca.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spca.png; path = ../../../../../../Desktop/spca.png; sourceTree = "<group>"; };
+		A2C20B37E05DBE1578E44647 /* Pods_StewardKeyboardExt.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StewardKeyboardExt.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2DF8CDD231F7BE0BDC0511C /* Pods-StewardKeyboardExt.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StewardKeyboardExt.release.xcconfig"; path = "Pods/Target Support Files/Pods-StewardKeyboardExt/Pods-StewardKeyboardExt.release.xcconfig"; sourceTree = "<group>"; };
+		DD7819FBA35FEC1788BE33D2 /* Pods-StewardBankKeyboard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StewardBankKeyboard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StewardBankKeyboard/Pods-StewardBankKeyboard.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +422,171 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C574030EE131E4770F6BB33 /* Pods_StewardKeyboardExt.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5B5129213368A700113C42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				997A4114D93946866276501F /* Pods_StewardBankKeyboard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2F98AA9A07A247A0E949D1BA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DD7819FBA35FEC1788BE33D2 /* Pods-StewardBankKeyboard.debug.xcconfig */,
+				57A5F2D646C7B02DFDB9BA0A /* Pods-StewardBankKeyboard.release.xcconfig */,
+				560BA74A15B221865AEE912F /* Pods-StewardKeyboardExt.debug.xcconfig */,
+				D2DF8CDD231F7BE0BDC0511C /* Pods-StewardKeyboardExt.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		360B47457C63DD591109E5E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				365838D1CC4BE0951CDEF15D /* Pods_StewardBankKeyboard.framework */,
+				A2C20B37E05DBE1578E44647 /* Pods_StewardKeyboardExt.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8E00765C216B5FA20024156A /* InternalTransferViews */ = {
+			isa = PBXGroup;
+			children = (
+				8E00765D216B5FC70024156A /* InternalTransferMainView.swift */,
+				8EC64BF02177308B002E5ED4 /* InternalTransferPinView.swift */,
+				8EC64BF821787036002E5ED4 /* InternalTransferAmountView.swift */,
+			);
+			path = InternalTransferViews;
+			sourceTree = "<group>";
+		};
+		8E06960421ACD85400EBEBA4 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				8E06960521ACD87500EBEBA4 /* ContactsTC.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		8E06960921ACDC3300EBEBA4 /* TableViews */ = {
+			isa = PBXGroup;
+			children = (
+				8E06960A21ACDC5100EBEBA4 /* ContactsTableViews.swift */,
+			);
+			path = TableViews;
+			sourceTree = "<group>";
+		};
+		8E06960C21ACE7F900EBEBA4 /* ContactsViews */ = {
+			isa = PBXGroup;
+			children = (
+				8E06960D21ACE81900EBEBA4 /* ContactsView.swift */,
+			);
+			path = ContactsViews;
+			sourceTree = "<group>";
+		};
+		8E2D8EE2214A51AB001FDCD1 /* Intergration */ = {
+			isa = PBXGroup;
+			children = (
+				8E2D8EE3214A51BA001FDCD1 /* AirtimeIntergration */,
+			);
+			path = Intergration;
+			sourceTree = "<group>";
+		};
+		8E2D8EE3214A51BA001FDCD1 /* AirtimeIntergration */ = {
+			isa = PBXGroup;
+			children = (
+				8E2D8EE4214A5245001FDCD1 /* AirtimeREST.swift */,
+			);
+			path = AirtimeIntergration;
+			sourceTree = "<group>";
+		};
+		8E3026B6216B8ABE006274BB /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8E3026B7216B8AF4006274BB /* BillListHelper.swift */,
+				8EEDF5A7216BA44700E8A50B /* BankValidater.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8E30FF6121622D14009B6858 /* ZIPITViews */ = {
+			isa = PBXGroup;
+			children = (
+				8E30FF6221622D42009B6858 /* ZIPITMainView.swift */,
+				8E109B65216AA76800C8E3A2 /* ZIPITAmountView.swift */,
+				8E109B5F216A70F000C8E3A2 /* ZIPITPaymentOptions.swift */,
+				8E109B61216A7A7D00C8E3A2 /* ZIPITPanView.swift */,
+				8E109B63216A84C400C8E3A2 /* ZIPITPinView.swift */,
+				8EC08A552179F1D7003A9D8F /* ZIPITEcocashConfirmView.swift */,
+				8E00D4CB215103E10088733D /* KeyboardNumberCharecterOneView.swift */,
+				8E09D8A72167A1FC0003B72C /* BillPaymentsPaymentOptions.swift */,
+			);
+			path = ZIPITViews;
+			sourceTree = "<group>";
+		};
+		8E346934216B06990089131B /* RTGSViews */ = {
+			isa = PBXGroup;
+			children = (
+				8E346935216B06B20089131B /* RTGSMainView.swift */,
+				8E34693D216B18960089131B /* RTGSAmountView.swift */,
+				8E007656216B39A70024156A /* RTGSPaymentOptionsView.swift */,
+				8E007658216B3FC10024156A /* RTGSPanView.swift */,
+				8E00765A216B46BF0024156A /* RTGSPinView.swift */,
+			);
+			path = RTGSViews;
+			sourceTree = "<group>";
+		};
+		8E3D1412216E2DD0001D1677 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8E3D1413216E2E41001D1677 /* BaseEndPoint.swift */,
+				8E9B8284216E81000029809D /* ANLoader.swift */,
+				8E9B8286216EFFC90029809D /* PhonenumberFormater.swift */,
+				8E3D1415216E3260001D1677 /* SharedPreferences.swift */,
+				8E03C764216F898E00A19306 /* DeviceType.swift */,
+				8E03C76E216FB7F400A19306 /* GroupUserDefaults.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8E4162862148E89C0037A61F /* GenericRest */ = {
+			isa = PBXGroup;
+			children = (
+				8E4162872148E8C60037A61F /* SmartGenericRest.swift */,
+				8E4162892148EB1C0037A61F /* GenericObjectRequest.swift */,
+			);
+			path = GenericRest;
+			sourceTree = "<group>";
+		};
+		8E41628C2148F16F0037A61F /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8E41628D2148F17A0037A61F /* SecurityCertificateManager.swift */,
+				8E03C769216F9C4600A19306 /* Channel.swift */,
+				8EE247722170B16D0053E236 /* Encrypter.swift */,
+				8E5E4DAF218AA04000D2715F /* KeyboardSharedPreferences.swift */,
+				8E88400E218F2BC90013F6C4 /* FormatMoney.swift */,
+				8E1BBF9521DE41F600450781 /* Constants.swift */,
+				8EC15F0F21DF6A1A00469EE8 /* MNO.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 		8E5B510A2133685600113C42 = {
 			isa = PBXGroup;
 			children = (
 				8E5B51152133685600113C42 /* StewardKeyboardExt */,
+				8E5B512D213368A700113C42 /* StewardBankKeyboard */,
 				8E5B51142133685600113C42 /* Products */,
+				2F98AA9A07A247A0E949D1BA /* Pods */,
+				360B47457C63DD591109E5E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -47,6 +594,7 @@
 			isa = PBXGroup;
 			children = (
 				8E5B51132133685600113C42 /* StewardKeyboardExt.app */,
+				8E5B512C213368A700113C42 /* StewardBankKeyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,14 +602,299 @@
 		8E5B51152133685600113C42 /* StewardKeyboardExt */ = {
 			isa = PBXGroup;
 			children = (
+				8E330186218B7D2700F7F1E0 /* StewardKeyboardExt.entitlements */,
+				8E3D1412216E2DD0001D1677 /* Utils */,
+				8EA989E02146AF43006813D1 /* Storyboards+ViewControllers */,
+				8EA989DD2146AF1C006813D1 /* Cells */,
+				8EA989D82146AEB3006813D1 /* Models */,
 				8E5B51162133685600113C42 /* AppDelegate.swift */,
-				8E5B51182133685600113C42 /* ViewController.swift */,
-				8E5B511A2133685600113C42 /* Main.storyboard */,
 				8E5B511D2133685700113C42 /* Assets.xcassets */,
+				8E45A0ED21ABF9990022E2D8 /* exit.png */,
 				8E5B511F2133685700113C42 /* LaunchScreen.storyboard */,
 				8E5B51222133685700113C42 /* Info.plist */,
 			);
 			path = StewardKeyboardExt;
+			sourceTree = "<group>";
+		};
+		8E5B512D213368A700113C42 /* StewardBankKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8E06960421ACD85400EBEBA4 /* TableViewCells */,
+				8E330187218B7D5500F7F1E0 /* StewardBankKeyboard.entitlements */,
+				8E3026B6216B8ABE006274BB /* Helpers */,
+				8EF510B4216325B7001D8517 /* CollectionViewCells */,
+				8EF510AE21631E04001D8517 /* Models */,
+				8E2D8EE2214A51AB001FDCD1 /* Intergration */,
+				8E41628C2148F16F0037A61F /* Utils */,
+				8E4162862148E89C0037A61F /* GenericRest */,
+				8E6C1D53213C39D6009EBE6B /* Views */,
+				8E63181C2135893F005F06F4 /* ControlHelpers */,
+				8E5B513E2134338800113C42 /* Resources */,
+				8E5B513B21342C0000113C42 /* Designables */,
+				8E5B5130213368A700113C42 /* Info.plist */,
+			);
+			path = StewardBankKeyboard;
+			sourceTree = "<group>";
+		};
+		8E5B513B21342C0000113C42 /* Designables */ = {
+			isa = PBXGroup;
+			children = (
+				8E5B513C21342C3900113C42 /* UIViewX.swift */,
+			);
+			path = Designables;
+			sourceTree = "<group>";
+		};
+		8E5B513E2134338800113C42 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8EEDF57C216B92E000E8A50B /* BanksLogos */,
+				8EF510A121631D83001D8517 /* BillersLogos */,
+				8E30FF34216183BA009B6858 /* grid-world.png */,
+				8E30FF322161835F009B6858 /* up-arrow.png */,
+				8E00D4D22151F5B40088733D /* smiley.png */,
+				8E00D4D42151F6760088733D /* microphone.png */,
+				8E6318402136A713005F06F4 /* changekeyboard.png */,
+				8E30FF302161829B009B6858 /* happiness.png */,
+				8E00D4CF21514C830088733D /* backspace.png */,
+				8ED0FC3021AFA74D008BFAD2 /* backspace_arrow.png */,
+				8EB59F45219043A400398352 /* sbkeylogo.png */,
+				8E63183E2136A712005F06F4 /* emoji.png */,
+				8E63184D2136A934005F06F4 /* sb.png */,
+				8E6C1D5A213D7345009EBE6B /* stewardbank.png */,
+				8E6C1D5C213D7345009EBE6B /* stewardbank@2x.png */,
+				8E6C1D5B213D7345009EBE6B /* stewardbank@3x.png */,
+				8E6318472136A802005F06F4 /* shift.png */,
+				8E6318492136A865005F06F4 /* delete.png */,
+				8E63182B21369FBB005F06F4 /* econet_image_btn.png */,
+				8E09D8A92167BEE40003B72C /* zimswitch.png */,
+				8E63183121369FBC005F06F4 /* econet_image_btn@2x.png */,
+				8E63183221369FBD005F06F4 /* econet_image_btn@3x.png */,
+				8E63183021369FBC005F06F4 /* netone_image_btn.png */,
+				8E63182E21369FBC005F06F4 /* netone_image_btn@2x.png */,
+				8E63182F21369FBC005F06F4 /* netone_image_btn@3x.png */,
+				8E63182C21369FBB005F06F4 /* telecel_image_btn.png */,
+				8E63183321369FBD005F06F4 /* telecel_image_btn@2x.png */,
+				8E63182D21369FBC005F06F4 /* telecel_image_btn@3x.png */,
+				8E63182321359918005F06F4 /* gray_keyboard.png */,
+				8E63181F21359720005F06F4 /* left_image.png */,
+				8E63182021359720005F06F4 /* right_image.png */,
+				8E5B513F2134339E00113C42 /* rightroundbutton.png */,
+				8E63182521360A8B005F06F4 /* Colors.xcassets */,
+				8E63182721360D11005F06F4 /* Theme.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8E63181C2135893F005F06F4 /* ControlHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				8E63181D21358958005F06F4 /* Controls.swift */,
+			);
+			path = ControlHelpers;
+			sourceTree = "<group>";
+		};
+		8E6C1D53213C39D6009EBE6B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8ECC723321BFB04B00667366 /* ExpiryDateViews */,
+				8E06960C21ACE7F900EBEBA4 /* ContactsViews */,
+				8E06960921ACDC3300EBEBA4 /* TableViews */,
+				8E882B5F2175E6CC008B3004 /* BalanceEnquiryViews */,
+				8E00765C216B5FA20024156A /* InternalTransferViews */,
+				8E346934216B06990089131B /* RTGSViews */,
+				8EF510B121632295001D8517 /* CollectionViews */,
+				8EF5109E2162E868001D8517 /* BillPayments */,
+				8E30FF6121622D14009B6858 /* ZIPITViews */,
+				8E6C1D54213C3A03009EBE6B /* AirtimeViews */,
+				8E5B512E213368A700113C42 /* KeyboardViewController.swift */,
+				8E882B5D2175D552008B3004 /* KeyboardMainMenuView.swift */,
+				8E5B51392133EA2300113C42 /* Keyboard.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8E6C1D54213C3A03009EBE6B /* AirtimeViews */ = {
+			isa = PBXGroup;
+			children = (
+				8E63182921360F8C005F06F4 /* AirtimeView.swift */,
+				8E6C1D55213C3CFE009EBE6B /* AirtimeAmountView.swift */,
+				8E6C1D58213D6A21009EBE6B /* AirtimePaymentOptionView.swift */,
+				8EB3328B2147A3850052339E /* AirtimePinView.swift */,
+			);
+			path = AirtimeViews;
+			sourceTree = "<group>";
+		};
+		8E882B5F2175E6CC008B3004 /* BalanceEnquiryViews */ = {
+			isa = PBXGroup;
+			children = (
+				8E882B602175E8B1008B3004 /* BalanceEnquiryMainView.swift */,
+				8E882B622175F2B9008B3004 /* BalanceEnquirySBOptionView.swift */,
+				8E882B6421761B14008B3004 /* BalanceEnquiryZSPan.swift */,
+				8ECE10212176333B009CB6AF /* BalanceEnquiryZSPin.swift */,
+			);
+			path = BalanceEnquiryViews;
+			sourceTree = "<group>";
+		};
+		8EA989D82146AEB3006813D1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8EA989DB2146AF07006813D1 /* HomeGridModel.swift */,
+				8E3D1417216E32F7001D1677 /* ProfileAuthModel.swift */,
+				8E9B8288216F01390029809D /* ProfileActivateModel.swift */,
+				8EC47104216F4B0800661EAA /* EcocashActivateModel.swift */,
+				8EC47106216F50A900661EAA /* EcocashAuthModel.swift */,
+				8EC4710C216F5CE300661EAA /* SquareAuthModel.swift */,
+				8EC4710E216F688000661EAA /* SquareActivateModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8EA989DD2146AF1C006813D1 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8EA989DE2146AF2B006813D1 /* HomeCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		8EA989E02146AF43006813D1 /* Storyboards+ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				8E5B51182133685600113C42 /* ViewController.swift */,
+				8E5B511A2133685600113C42 /* Main.storyboard */,
+				8EA989E12146B0CF006813D1 /* HomeScreenViewController.storyboard */,
+				8EA989E32146B0E9006813D1 /* HomeScreenViewController.swift */,
+				8EA989E52146B11C006813D1 /* SetupPhoneViewController.storyboard */,
+				8EA989E72146B135006813D1 /* SetupPhoneViewController.swift */,
+				8EA989E92146B14D006813D1 /* SetupPaymentHomeViewController.storyboard */,
+				8EA989EB2146B163006813D1 /* SetupPaymentHomeViewController.swift */,
+				8E3D1419216E48EA001D1677 /* OnBoardPrimaryNumberViewController.storyboard */,
+				8E3D141B216E493E001D1677 /* OnBoardPrimaryNumberViewController.swift */,
+				8E3D141D216E4976001D1677 /* OnBoardOTPViewController.storyboard */,
+				8E3D141F216E49AC001D1677 /* OnBoardOTPViewController.swift */,
+				8E3D1421216E49CC001D1677 /* OnBoardPinViewController.storyboard */,
+				8E3D1423216E49E6001D1677 /* OnBoardPinViewController.swift */,
+				8EC47108216F512C00661EAA /* EcocashOnboardingViewController.storyboard */,
+				8EC4710A216F515300661EAA /* EcocashOnboardingViewController.swift */,
+				8EC47110216F6A1D00661EAA /* SquareOnBoardViewController.storyboard */,
+				8EC47112216F6A3000661EAA /* SquareOnBoardViewController.swift */,
+				8E45A0E921ABD7A20022E2D8 /* MyProfileViewController.storyboard */,
+				8E45A0EB21ABD7B90022E2D8 /* MyProfileViewController.swift */,
+			);
+			path = "Storyboards+ViewControllers";
+			sourceTree = "<group>";
+		};
+		8ECC723321BFB04B00667366 /* ExpiryDateViews */ = {
+			isa = PBXGroup;
+			children = (
+				8ECC723421BFB08B00667366 /* ExpiryDateView.swift */,
+			);
+			path = ExpiryDateViews;
+			sourceTree = "<group>";
+		};
+		8EEDF57C216B92E000E8A50B /* BanksLogos */ = {
+			isa = PBXGroup;
+			children = (
+				9EFA2AE723191D6E00213FB4 /* l_mycash.jpg */,
+				8EEDF57F216B935500E8A50B /* l_banc_abc.png */,
+				8EEDF585216B943E00E8A50B /* l_cbz.png */,
+				8EEDF58B216B948100E8A50B /* l_fbcb.png */,
+				8EEDF589216B947700E8A50B /* l_fbc.png */,
+				8ECE91D1217FFFA600622F10 /* l_barclays.png */,
+				8ECE91CC217FFE6400622F10 /* l_getbucks_.png */,
+				8E4764A3216DFED400FB638B /* I_agribank.png */,
+				8EA7615D216CF97D000B1007 /* I_ecobank.jpg */,
+				8EEDF591216B94A200E8A50B /* l_mbca.png */,
+				8EEDF593216B94A800E8A50B /* l_metbank_.png */,
+				8EA7615F216CFB23000B1007 /* I_acl.png */,
+				8EA76153216CF635000B1007 /* I_nmb.png */,
+				8EA7615B216CF8C0000B1007 /* I_stanbic.png */,
+				8E4764A1216DFE2700FB638B /* I_idbz.png */,
+				8EA76155216CF705000B1007 /* I_stan.png */,
+				8EA76157216CF79B000B1007 /* I_cabs.png */,
+				8EEDF597216B94B800E8A50B /* l_nbs.png */,
+				8EA76159216CF854000B1007 /* I_posb.png */,
+				8EEDF59B216B94C900E8A50B /* l_onewallet.png */,
+				8EEDF5A3216B954900E8A50B /* l_steward.png */,
+				8EEDF5A5216B955700E8A50B /* l_zb.png */,
+				8EB59F47219043CD00398352 /* oops.png */,
+				8EB59F49219043DF00398352 /* thankyou.png */,
+				8E884010218F4E990013F6C4 /* sosho_icon.png */,
+			);
+			path = BanksLogos;
+			sourceTree = "<group>";
+		};
+		8EF5109E2162E868001D8517 /* BillPayments */ = {
+			isa = PBXGroup;
+			children = (
+				8EF5109F2162E880001D8517 /* BillPaymentMainView.swift */,
+				8E6538C521666317001C6736 /* BillPaymentsAmountView.swift */,
+				8E09D8AB2167CC2B0003B72C /* BillPaymentsZimSwitchPanView.swift */,
+				8E109B592168F67900C8E3A2 /* BillPaymentsPinView.swift */,
+			);
+			path = BillPayments;
+			sourceTree = "<group>";
+		};
+		8EF510A121631D83001D8517 /* BillersLogos */ = {
+			isa = PBXGroup;
+			children = (
+				8EF510A421631DBB001D8517 /* kwesetv.png */,
+				9EFA2AEB23191EC000213FB4 /* spca.png */,
+				8EF510A621631DC9001D8517 /* telone.png */,
+				8EF510A821631DD5001D8517 /* zetdc.png */,
+				8EF510AA21631DDD001D8517 /* l_zol.png */,
+				8EF510A221631DAD001D8517 /* l_edgars.png */,
+				8EF510AC21631DE5001D8517 /* zuva.png */,
+			);
+			path = BillersLogos;
+			sourceTree = "<group>";
+		};
+		8EF510AE21631E04001D8517 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8EF510AF21631E1F001D8517 /* BillersListModel.swift */,
+				8EEDF5A9216BA4AB00E8A50B /* BankListModel.swift */,
+				8E7442F02174685A00EE33B2 /* ZIPITModel.swift */,
+				8E03C766216F97AF00A19306 /* PurchaseZimModel.swift */,
+				8E7442F2217490F800EE33B2 /* KeyboardTileModel.swift */,
+				8EC64BF221781C3B002E5ED4 /* ZimswitchBalanceModel.swift */,
+				8EC64BF421782724002E5ED4 /* SquareBalanceModel.swift */,
+				8EC64BF621782D2B002E5ED4 /* InternalTransferModel.swift */,
+				8EC64BFA2178CEDD002E5ED4 /* EcocashPayModel.swift */,
+				8ECE91C9217DD49300622F10 /* EcocashAuthModel.swift */,
+				8ECE91D3218148CD00622F10 /* ZipitT24AuthModel.swift */,
+				8E10BED62181D17100EF2D60 /* OtherBillersAuthModel.swift */,
+				8E10BED82181DD6A00EF2D60 /* OtherBillersPayModel.swift */,
+				8E88400C218EFB7C0013F6C4 /* AirtimeModel.swift */,
+				8E4760FC219F276100F18B2B /* SquarePurchaseModel.swift */,
+				8E06960721ACDBC300EBEBA4 /* Contacts.swift */,
+				8E1BBF9121DE34CC00450781 /* Charges.swift */,
+				8E1BBF9321DE3DEF00450781 /* SingleCharge.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8EF510B121632295001D8517 /* CollectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				8EF510B2216322BD001D8517 /* CollectionViews.swift */,
+				8EEA3EC621646E6000F445F8 /* BillCollectionView.swift */,
+				8E109B5D216A2C5D00C8E3A2 /* ZIPITCollectionView.swift */,
+				8E346939216B103E0089131B /* RTGSCollectionView.swift */,
+				8E7442F4217492FC00EE33B2 /* MainTilesCollectionView.swift */,
+			);
+			path = CollectionViews;
+			sourceTree = "<group>";
+		};
+		8EF510B4216325B7001D8517 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				8EF510B5216325DC001D8517 /* BillPaymentsCollectionCell.swift */,
+				8E109B5B216A299C00C8E3A2 /* ZIPITCollectionCell.swift */,
+				8E7442F62174976500EE33B2 /* TilesCollectionCell.swift */,
+				8E346937216B0FC10089131B /* RTGSCollectionCell.swift */,
+			);
+			path = CollectionViewCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,18 +904,40 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E5B51252133685700113C42 /* Build configuration list for PBXNativeTarget "StewardKeyboardExt" */;
 			buildPhases = (
+				07E0F4EAFAD5C1EBA0373497 /* [CP] Check Pods Manifest.lock */,
 				8E5B510F2133685600113C42 /* Sources */,
 				8E5B51102133685600113C42 /* Frameworks */,
 				8E5B51112133685600113C42 /* Resources */,
+				8E5B5137213368A700113C42 /* Embed App Extensions */,
+				361A324DA123C4195D318BDA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				8E5B5132213368A700113C42 /* PBXTargetDependency */,
 			);
 			name = StewardKeyboardExt;
 			productName = StewardKeyboardExt;
 			productReference = 8E5B51132133685600113C42 /* StewardKeyboardExt.app */;
 			productType = "com.apple.product-type.application";
+		};
+		8E5B512B213368A700113C42 /* StewardBankKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E5B5134213368A700113C42 /* Build configuration list for PBXNativeTarget "StewardBankKeyboard" */;
+			buildPhases = (
+				F9FE16CB5668177740347C35 /* [CP] Check Pods Manifest.lock */,
+				8E5B5128213368A700113C42 /* Sources */,
+				8E5B5129213368A700113C42 /* Frameworks */,
+				8E5B512A213368A700113C42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StewardBankKeyboard;
+			productName = StewardBankKeyboard;
+			productReference = 8E5B512C213368A700113C42 /* StewardBankKeyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -96,6 +951,19 @@
 				TargetAttributes = {
 					8E5B51122133685600113C42 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					8E5B512B213368A700113C42 = {
+						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -113,6 +981,7 @@
 			projectRoot = "";
 			targets = (
 				8E5B51122133685600113C42 /* StewardKeyboardExt */,
+				8E5B512B213368A700113C42 /* StewardBankKeyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -123,24 +992,300 @@
 			buildActionMask = 2147483647;
 			files = (
 				8E5B51212133685700113C42 /* LaunchScreen.storyboard in Resources */,
+				8E3D141E216E4976001D1677 /* OnBoardOTPViewController.storyboard in Resources */,
+				8E45A0EA21ABD7A20022E2D8 /* MyProfileViewController.storyboard in Resources */,
+				8EC47111216F6A1D00661EAA /* SquareOnBoardViewController.storyboard in Resources */,
+				8EC47109216F512C00661EAA /* EcocashOnboardingViewController.storyboard in Resources */,
+				8E45A0EE21ABF9990022E2D8 /* exit.png in Resources */,
+				8E3D141A216E48EA001D1677 /* OnBoardPrimaryNumberViewController.storyboard in Resources */,
+				8EA989E62146B11C006813D1 /* SetupPhoneViewController.storyboard in Resources */,
 				8E5B511E2133685700113C42 /* Assets.xcassets in Resources */,
+				8EA989EA2146B14D006813D1 /* SetupPaymentHomeViewController.storyboard in Resources */,
+				8EA989E22146B0CF006813D1 /* HomeScreenViewController.storyboard in Resources */,
+				8E34AE8321868BBC0078CB6D /* Colors.xcassets in Resources */,
+				8E3D1422216E49CC001D1677 /* OnBoardPinViewController.storyboard in Resources */,
 				8E5B511C2133685600113C42 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8E5B512A213368A700113C42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E00D4D32151F5B40088733D /* smiley.png in Resources */,
+				8E63183721369FBD005F06F4 /* netone_image_btn@2x.png in Resources */,
+				8EB59F4A219043DF00398352 /* thankyou.png in Resources */,
+				8EF510A321631DAD001D8517 /* l_edgars.png in Resources */,
+				8EF510A521631DBB001D8517 /* kwesetv.png in Resources */,
+				8E63183421369FBD005F06F4 /* econet_image_btn.png in Resources */,
+				8E6318482136A802005F06F4 /* shift.png in Resources */,
+				8E5B513A2133EA2300113C42 /* Keyboard.storyboard in Resources */,
+				8E6C1D5E213D7345009EBE6B /* stewardbank@3x.png in Resources */,
+				8E63182121359720005F06F4 /* left_image.png in Resources */,
+				8E63183621369FBD005F06F4 /* telecel_image_btn@3x.png in Resources */,
+				9EFA2AE823191D6E00213FB4 /* l_mycash.jpg in Resources */,
+				8E4764A4216DFED400FB638B /* I_agribank.png in Resources */,
+				8E30FF35216183BA009B6858 /* grid-world.png in Resources */,
+				8EEDF59C216B94C900E8A50B /* l_onewallet.png in Resources */,
+				8E63183821369FBD005F06F4 /* netone_image_btn@3x.png in Resources */,
+				8E63183C21369FBD005F06F4 /* telecel_image_btn@2x.png in Resources */,
+				8E63184A2136A865005F06F4 /* delete.png in Resources */,
+				8E30FF332161835F009B6858 /* up-arrow.png in Resources */,
+				8E63183521369FBD005F06F4 /* telecel_image_btn.png in Resources */,
+				8E00D4D52151F6760088733D /* microphone.png in Resources */,
+				8EEDF5A4216B954900E8A50B /* l_steward.png in Resources */,
+				8E63184E2136A934005F06F4 /* sb.png in Resources */,
+				8EF510A921631DD5001D8517 /* zetdc.png in Resources */,
+				8EB59F48219043CD00398352 /* oops.png in Resources */,
+				8EEDF580216B935500E8A50B /* l_banc_abc.png in Resources */,
+				8EA76154216CF635000B1007 /* I_nmb.png in Resources */,
+				8EEDF598216B94B800E8A50B /* l_nbs.png in Resources */,
+				8E6318432136A713005F06F4 /* emoji.png in Resources */,
+				8E63182221359720005F06F4 /* right_image.png in Resources */,
+				8E4764A2216DFE2700FB638B /* I_idbz.png in Resources */,
+				8E09D8AA2167BEE40003B72C /* zimswitch.png in Resources */,
+				8EA7615A216CF854000B1007 /* I_posb.png in Resources */,
+				8EF510A721631DC9001D8517 /* telone.png in Resources */,
+				9EFA2AEC23191EC100213FB4 /* spca.png in Resources */,
+				8E6C1D5D213D7345009EBE6B /* stewardbank.png in Resources */,
+				8E63183B21369FBD005F06F4 /* econet_image_btn@3x.png in Resources */,
+				8E63182621360A8B005F06F4 /* Colors.xcassets in Resources */,
+				8E63183921369FBD005F06F4 /* netone_image_btn.png in Resources */,
+				8EF510AB21631DDD001D8517 /* l_zol.png in Resources */,
+				8EA76160216CFB23000B1007 /* I_acl.png in Resources */,
+				8EEDF586216B943E00E8A50B /* l_cbz.png in Resources */,
+				8E884011218F4E9A0013F6C4 /* sosho_icon.png in Resources */,
+				8EEDF58A216B947700E8A50B /* l_fbc.png in Resources */,
+				8E6C1D5F213D7345009EBE6B /* stewardbank@2x.png in Resources */,
+				8E63183A21369FBD005F06F4 /* econet_image_btn@2x.png in Resources */,
+				8EA7615C216CF8C0000B1007 /* I_stanbic.png in Resources */,
+				8EF510AD21631DE5001D8517 /* zuva.png in Resources */,
+				8E30FF312161829C009B6858 /* happiness.png in Resources */,
+				8EB59F46219043A500398352 /* sbkeylogo.png in Resources */,
+				8ECE91CF217FFE6400622F10 /* l_getbucks_.png in Resources */,
+				8E6318452136A713005F06F4 /* changekeyboard.png in Resources */,
+				8EEDF594216B94A800E8A50B /* l_metbank_.png in Resources */,
+				8E63182421359918005F06F4 /* gray_keyboard.png in Resources */,
+				8EA76156216CF705000B1007 /* I_stan.png in Resources */,
+				8E00D4D021514C830088733D /* backspace.png in Resources */,
+				8EEDF5A6216B955700E8A50B /* l_zb.png in Resources */,
+				8ED0FC3121AFA74D008BFAD2 /* backspace_arrow.png in Resources */,
+				8ECE91D2217FFFA600622F10 /* l_barclays.png in Resources */,
+				8EA76158216CF79B000B1007 /* I_cabs.png in Resources */,
+				8E5B51402134339E00113C42 /* rightroundbutton.png in Resources */,
+				8EEDF58C216B948100E8A50B /* l_fbcb.png in Resources */,
+				8EEDF592216B94A200E8A50B /* l_mbca.png in Resources */,
+				8EA7615E216CF97D000B1007 /* I_ecobank.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		07E0F4EAFAD5C1EBA0373497 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StewardKeyboardExt-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		361A324DA123C4195D318BDA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-StewardKeyboardExt/Pods-StewardKeyboardExt-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ParticlesLoadingView/ParticlesLoadingView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/Device.swift/Device_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CryptoSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ParticlesLoadingView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Device_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-StewardKeyboardExt/Pods-StewardKeyboardExt-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9FE16CB5668177740347C35 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StewardBankKeyboard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8E5B510F2133685600113C42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E45A0EC21ABD7B90022E2D8 /* MyProfileViewController.swift in Sources */,
+				8E3D1420216E49AC001D1677 /* OnBoardOTPViewController.swift in Sources */,
+				8EF5109D2162E122001D8517 /* SecurityCertificateManager.swift in Sources */,
+				8EC4710F216F688000661EAA /* SquareActivateModel.swift in Sources */,
+				8EC47113216F6A3000661EAA /* SquareOnBoardViewController.swift in Sources */,
+				8EC47107216F50A900661EAA /* EcocashAuthModel.swift in Sources */,
 				8E5B51192133685600113C42 /* ViewController.swift in Sources */,
+				8EA989DC2146AF07006813D1 /* HomeGridModel.swift in Sources */,
+				8E3D1424216E49E6001D1677 /* OnBoardPinViewController.swift in Sources */,
+				8E3D1418216E32F7001D1677 /* ProfileAuthModel.swift in Sources */,
+				8E3D141C216E493E001D1677 /* OnBoardPrimaryNumberViewController.swift in Sources */,
+				8E3D1416216E3260001D1677 /* SharedPreferences.swift in Sources */,
+				8EA989DF2146AF2B006813D1 /* HomeCell.swift in Sources */,
+				8E6538C321660A86001C6736 /* Theme.swift in Sources */,
+				8E3D1414216E2E41001D1677 /* BaseEndPoint.swift in Sources */,
+				8EF5109B2162E10C001D8517 /* SmartGenericRest.swift in Sources */,
+				8E03C765216F898E00A19306 /* DeviceType.swift in Sources */,
+				8EA989E82146B135006813D1 /* SetupPhoneViewController.swift in Sources */,
 				8E5B51172133685600113C42 /* AppDelegate.swift in Sources */,
+				8E03C76F216FB7F400A19306 /* GroupUserDefaults.swift in Sources */,
+				8EA989E42146B0E9006813D1 /* HomeScreenViewController.swift in Sources */,
+				8E9B8285216E81000029809D /* ANLoader.swift in Sources */,
+				8E152B5D218C550C0049F81D /* Controls.swift in Sources */,
+				8E9B8289216F01390029809D /* ProfileActivateModel.swift in Sources */,
+				8EC47105216F4B0800661EAA /* EcocashActivateModel.swift in Sources */,
+				8EC4710B216F515300661EAA /* EcocashOnboardingViewController.swift in Sources */,
+				8EC4710D216F5CE300661EAA /* SquareAuthModel.swift in Sources */,
+				8E9B8287216EFFC90029809D /* PhonenumberFormater.swift in Sources */,
+				8EA989EC2146B163006813D1 /* SetupPaymentHomeViewController.swift in Sources */,
+				8EF5109C2162E10F001D8517 /* GenericObjectRequest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8E5B5128213368A700113C42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E007657216B39A70024156A /* RTGSPaymentOptionsView.swift in Sources */,
+				8E88400F218F2BC90013F6C4 /* FormatMoney.swift in Sources */,
+				8E109B5E216A2C5D00C8E3A2 /* ZIPITCollectionView.swift in Sources */,
+				8E346938216B0FC10089131B /* RTGSCollectionCell.swift in Sources */,
+				8EE247732170B16D0053E236 /* Encrypter.swift in Sources */,
+				8E882B6521761B14008B3004 /* BalanceEnquiryZSPan.swift in Sources */,
+				8E03C770216FC47400A19306 /* GroupUserDefaults.swift in Sources */,
+				8EEDF5A8216BA44700E8A50B /* BankValidater.swift in Sources */,
+				8E88400B218EEE700013F6C4 /* PhonenumberFormater.swift in Sources */,
+				8E109B5C216A299C00C8E3A2 /* ZIPITCollectionCell.swift in Sources */,
+				8E5B512F213368A700113C42 /* KeyboardViewController.swift in Sources */,
+				8E7442F12174685A00EE33B2 /* ZIPITModel.swift in Sources */,
+				8EC64BF321781C3B002E5ED4 /* ZimswitchBalanceModel.swift in Sources */,
+				8ECE10222176333B009CB6AF /* BalanceEnquiryZSPin.swift in Sources */,
+				8E88400D218EFB7C0013F6C4 /* AirtimeModel.swift in Sources */,
+				8EF510A02162E880001D8517 /* BillPaymentMainView.swift in Sources */,
+				8EEDF5AA216BA4AB00E8A50B /* BankListModel.swift in Sources */,
+				8EF510B6216325DC001D8517 /* BillPaymentsCollectionCell.swift in Sources */,
+				8E007659216B3FC10024156A /* RTGSPanView.swift in Sources */,
+				8E1BBF9221DE34CC00450781 /* Charges.swift in Sources */,
+				8E2D8EE5214A5245001FDCD1 /* AirtimeREST.swift in Sources */,
+				8EC64BFB2178CEDD002E5ED4 /* EcocashPayModel.swift in Sources */,
+				8E882B5E2175D552008B3004 /* KeyboardMainMenuView.swift in Sources */,
+				8E971A4A218A9C56004523DA /* SharedPreferences.swift in Sources */,
+				8E63182821360D11005F06F4 /* Theme.swift in Sources */,
+				8E1BBF9621DE41F600450781 /* Constants.swift in Sources */,
+				8E03C767216F97AF00A19306 /* PurchaseZimModel.swift in Sources */,
+				8ECE91CA217DD49300622F10 /* EcocashAuthModel.swift in Sources */,
+				8E882B632175F2B9008B3004 /* BalanceEnquirySBOptionView.swift in Sources */,
+				8E5E4DB0218AA04000D2715F /* KeyboardSharedPreferences.swift in Sources */,
+				8EC15F1021DF6A1A00469EE8 /* MNO.swift in Sources */,
+				8E1BBF9421DE3DEF00450781 /* SingleCharge.swift in Sources */,
+				8E346936216B06B20089131B /* RTGSMainView.swift in Sources */,
+				8E7442F3217490F800EE33B2 /* KeyboardTileModel.swift in Sources */,
+				8EC08A562179F1D7003A9D8F /* ZIPITEcocashConfirmView.swift in Sources */,
+				8E6C1D56213C3CFE009EBE6B /* AirtimeAmountView.swift in Sources */,
+				8E6538C621666317001C6736 /* BillPaymentsAmountView.swift in Sources */,
+				8E06960E21ACE81900EBEBA4 /* ContactsView.swift in Sources */,
+				8EF510B3216322BD001D8517 /* CollectionViews.swift in Sources */,
+				8E109B60216A70F000C8E3A2 /* ZIPITPaymentOptions.swift in Sources */,
+				8E63181E21358958005F06F4 /* Controls.swift in Sources */,
+				8EC64BF521782724002E5ED4 /* SquareBalanceModel.swift in Sources */,
+				8E03C76A216F9C4600A19306 /* Channel.swift in Sources */,
+				8E00D4CC215103E10088733D /* KeyboardNumberCharecterOneView.swift in Sources */,
+				8E10BED92181DD6A00EF2D60 /* OtherBillersPayModel.swift in Sources */,
+				8EC64BF921787036002E5ED4 /* InternalTransferAmountView.swift in Sources */,
+				8E41628A2148EB1C0037A61F /* GenericObjectRequest.swift in Sources */,
+				8E41628E2148F17A0037A61F /* SecurityCertificateManager.swift in Sources */,
+				8E109B64216A84C400C8E3A2 /* ZIPITPinView.swift in Sources */,
+				8E4760FD219F276100F18B2B /* SquarePurchaseModel.swift in Sources */,
+				8E7442F72174976500EE33B2 /* TilesCollectionCell.swift in Sources */,
+				8E03C76B216F9CA900A19306 /* BaseEndPoint.swift in Sources */,
+				8EEA3EC721646E6000F445F8 /* BillCollectionView.swift in Sources */,
+				8E7442F5217492FC00EE33B2 /* MainTilesCollectionView.swift in Sources */,
+				8E06960621ACD87500EBEBA4 /* ContactsTC.swift in Sources */,
+				8E06960B21ACDC5100EBEBA4 /* ContactsTableViews.swift in Sources */,
+				8E882B612175E8B1008B3004 /* BalanceEnquiryMainView.swift in Sources */,
+				8EB3328C2147A3850052339E /* AirtimePinView.swift in Sources */,
+				8E3026B8216B8AF4006274BB /* BillListHelper.swift in Sources */,
+				8E4162882148E8C60037A61F /* SmartGenericRest.swift in Sources */,
+				8E109B5A2168F67900C8E3A2 /* BillPaymentsPinView.swift in Sources */,
+				8E34693E216B18960089131B /* RTGSAmountView.swift in Sources */,
+				8E00765E216B5FC70024156A /* InternalTransferMainView.swift in Sources */,
+				8EC64BF12177308B002E5ED4 /* InternalTransferPinView.swift in Sources */,
+				8E109B62216A7A7D00C8E3A2 /* ZIPITPanView.swift in Sources */,
+				8EF510B021631E1F001D8517 /* BillersListModel.swift in Sources */,
+				8E63182A21360F8C005F06F4 /* AirtimeView.swift in Sources */,
+				8E09D8A82167A1FC0003B72C /* BillPaymentsPaymentOptions.swift in Sources */,
+				8E34693A216B103E0089131B /* RTGSCollectionView.swift in Sources */,
+				8E5B513D21342C3900113C42 /* UIViewX.swift in Sources */,
+				8E09D8AC2167CC2B0003B72C /* BillPaymentsZimSwitchPanView.swift in Sources */,
+				8E06960821ACDBC300EBEBA4 /* Contacts.swift in Sources */,
+				8E109B66216AA76800C8E3A2 /* ZIPITAmountView.swift in Sources */,
+				8ECC723521BFB08B00667366 /* ExpiryDateView.swift in Sources */,
+				8E30FF6321622D42009B6858 /* ZIPITMainView.swift in Sources */,
+				8E10BED72181D17100EF2D60 /* OtherBillersAuthModel.swift in Sources */,
+				8E00765B216B46BF0024156A /* RTGSPinView.swift in Sources */,
+				8E6C1D59213D6A21009EBE6B /* AirtimePaymentOptionView.swift in Sources */,
+				8EC64BF721782D2B002E5ED4 /* InternalTransferModel.swift in Sources */,
+				8ECE91D4218148CD00622F10 /* ZipitT24AuthModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8E5B5132213368A700113C42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8E5B512B213368A700113C42 /* StewardBankKeyboard */;
+			targetProxy = 8E5B5131213368A700113C42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8E5B511A2133685600113C42 /* Main.storyboard */ = {
@@ -194,7 +1339,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: STEWARD BANK LTD (TCM8BVJ365)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -213,7 +1358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -254,7 +1399,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: STEWARD BANK LTD (TCM8BVJ365)";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -267,7 +1412,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -278,37 +1423,101 @@
 		};
 		8E5B51262133685700113C42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 560BA74A15B221865AEE912F /* Pods-StewardKeyboardExt.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StewardKeyboardExt/StewardKeyboardExt.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SN4WTTE9BY;
+				COMPRESS_PNG_FILES = NO;
+				DEVELOPMENT_TEAM = 9LFK2MHF3T;
 				INFOPLIST_FILE = StewardKeyboardExt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.stewardkeyboardext.kabike.StewardKeyboardExt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taitkeyboardext.sosholoza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRIP_PNG_TEXT = YES;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8E5B51272133685700113C42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2DF8CDD231F7BE0BDC0511C /* Pods-StewardKeyboardExt.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = StewardKeyboardExt/StewardKeyboardExt.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = SN4WTTE9BY;
+				COMPRESS_PNG_FILES = NO;
+				DEVELOPMENT_TEAM = 9LFK2MHF3T;
 				INFOPLIST_FILE = StewardKeyboardExt/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.stewardkeyboardext.kabike.StewardKeyboardExt;
+				PRODUCT_BUNDLE_IDENTIFIER = com.taitkeyboardext.sosholoza;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				STRIP_PNG_TEXT = YES;
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		8E5B5135213368A700113C42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD7819FBA35FEC1788BE33D2 /* Pods-StewardBankKeyboard.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = StewardBankKeyboard/StewardBankKeyboard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LFK2MHF3T;
+				INFOPLIST_FILE = StewardBankKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taitkeyboardext.sosholoza.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8E5B5136213368A700113C42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57A5F2D646C7B02DFDB9BA0A /* Pods-StewardBankKeyboard.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = StewardBankKeyboard/StewardBankKeyboard.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9LFK2MHF3T;
+				INFOPLIST_FILE = StewardBankKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.taitkeyboardext.sosholoza.Extension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -329,6 +1538,15 @@
 			buildConfigurations = (
 				8E5B51262133685700113C42 /* Debug */,
 				8E5B51272133685700113C42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E5B5134213368A700113C42 /* Build configuration list for PBXNativeTarget "StewardBankKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E5B5135213368A700113C42 /* Debug */,
+				8E5B5136213368A700113C42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
